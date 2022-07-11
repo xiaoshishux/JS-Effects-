@@ -20,6 +20,7 @@
     <script type="text/javascript" src="js/ThreeCanvas.js"></script>
     <script type="text/javascript" src="js/Snow.js"></script>
     <script>
+      //获取文档显示区的宽度与高度
       var SCREEN_WIDTH = window.innerWidth;
       var SCREEN_HEIGHT = window.innerHeight;
 
@@ -42,6 +43,7 @@
       particleImage.src = "images/ParticleSmoke.png";
 
       function init() {
+        //创建名称为 container的 div元素
         container = document.createElement("div");
         document.body.appendChild(container);
 
